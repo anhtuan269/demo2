@@ -1,0 +1,23 @@
+@media screen and (min-width:320px){
+
+    .logo .owl-carousel .owl-item img {
+        display: block;
+        width: 140px;
+        height:60px;
+    }
+    .logo .owl-carousel .owl-dots .owl-dot {
+        display:none;
+    }
+}
+@media screen and (min-width:768px){
+    .logo-slide {
+        max-width:750px;
+        margin:auto;
+    }
+}
+@media screen and (min-width:1200px){
+    .logo-slide {
+        max-width:1140px;
+        margin:auto;
+    }
+}

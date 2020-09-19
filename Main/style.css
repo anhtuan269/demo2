@@ -1,0 +1,235 @@
+
+@media screen and (min-width:320px){
+    .container .left-content{
+        border: 1px solid #999;
+        color:#000;
+        margin:10px 10px;
+        justify-content: center;
+        display: block;
+    }
+    .container .left-content h2 {
+        font-size:1.1em;
+        font-weight:600;
+        background-color:#eee;
+        padding: 10px 20px;
+    }
+    .container .left-content ul li {
+        margin: 10px 20px;
+        border-bottom: 1px solid #eee;
+        padding: 10px 0;
+    }
+    .container .left-content ul .btn {
+        padding: 20px;
+        display:block;
+        margin: 10px 20px;
+        background-color:#000;
+        color:#FFF;
+        text-align: center;
+        font-weight:700;
+        font-size:1.1em;
+    }
+    .container .left-content ul li a i {
+        color: #444;
+        padding-right: 20px;
+    }
+    .container .right-content {
+        margin: 15px 10px;
+        max-width:94%;
+    }
+    .container .right-content .owl-dots {
+        position: absolute;
+        bottom: 0px;
+        left: 10px;
+    }
+    .container .right-content img {
+        width:100%;
+        height:445px;
+        object-fit:cover;
+        object-position:top;
+    }
+    .container .right-content .slide .slide-content {
+        top:50%;
+        position:absolute;
+        left:6%;
+        transform: translateY(-50%);
+        color: #FFF;
+        width:100%;
+    }
+    .container .right-content .slide .slide-content h4 {
+        font-size:1.4em;
+        opacity:0.7;
+    }
+    .container .right-content .slide .slide-content h3 {
+        font-size:3em;
+        font-weight:700;
+       
+    }
+    .container .right-content .slide .slide-content h2 {
+        font-size:5em;
+        font-weight:700;
+        position:relative;
+        top:-25px;
+        font-family:Poppins, sans-serif;
+    }
+    .container .right-content .slide .slide-content h5 {
+        position:relative;
+        top:-40px;
+        font-size:0.6em;
+    }
+    .container .right-content .slide .slide-content h5 .btn {
+        background-color: #FFF;
+        color: #FF7272;
+        padding: 4px 10px;
+        transform: rotate(-1deg);
+        margin: 0px 7px;
+        display: inline-block;
+        font-size: 1.8em;
+        font-weight: 700;
+        font-family:Poppins, sans-serif;
+    } 
+    
+    .container .right-content .slide .slide-content h5 sup {
+        font-size:0.6em;
+        position:relative;
+        top: -4px;
+        padding:0 2px;
+    }
+    .container .right-content .slide .slide-content a {
+        padding: 15px 26px;
+        display: inline-block;
+        position: absolute;
+        left: 45%;
+        bottom: 7%;
+        background-color: #000;
+        font-weight: 700;
+        font-family: Poppins,sans-serif;
+    }
+    .container .owl-carousel .owl-dots .owl-dot span {
+        width: 14px;
+        height: 14px;
+        border-color: #fff;
+    }
+    .container .owl-theme .owl-dots .owl-dot  span {
+        position: relative;
+        width: 15px;
+        height: 15px;
+        margin: 2px 2px;
+        background: transparent;
+        display: block;
+        transition: all .3s ease;
+        border: 0.1rem solid rgba(0,0,0,0.4);
+        border-radius: 50%;
+    }
+    .container .owl-theme .owl-dots .owl-dot.active span {
+        border-color: #222529;
+        width:15px;
+        height:15px;
+    }
+    .container .owl-carousel .owl-dots .owl-dot.active span{
+        background: transparent;
+    }
+    .container .owl-theme .owl-dots .owl-dot span {
+        border-color: #FFF;
+
+    }
+    
+    .container .owl-theme .owl-dots .owl-dot.active span::before {
+        opacity: 1;
+        visibility: visible;
+        transform: scale(1);
+    }
+    .container .owl-theme .owl-dots .owl-dot span::before {
+        content: "";
+        display: block;
+        width: .7rem;
+        height: .7rem;
+        background-color: transparent;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+         margin-top: -.35rem; 
+         margin-left: -.35rem; 
+        background-color: #08C;
+        opacity: 0;
+        visibility: hidden;
+        transform: scale(0);
+        transition: all .3s;
+        border-radius: 50%;
+    }
+    .container .owl-theme .owl-dots .owl-dot.active span::before {
+        width: 4px;
+        height: 4px;
+        margin-left: -2.5px;
+        margin-top: -2px;
+        background: #222529
+    }
+    
+}
+@media screen and (min-width:480px){
+    .container .right-content {
+        max-width:96%;
+    }
+    .container .right-content .slide .slide-content a {
+        padding: 15px 26px;
+        display: inline-block;
+        position: absolute;
+        left: 47%;
+        bottom: 13%;
+        background-color: #000;
+        font-weight: 700;
+        font-family: Poppins,sans-serif;
+    }
+    .container .right-content .slide .slide-content h5 {
+        font-size:1em;
+    }
+}
+@media screen and (min-width:768px){
+    .container .right-content {
+        max-width : 97%;
+    }
+    .container .right-content .slide .slide-content a {
+        left:28%;
+    }
+}
+@media screen and (min-width:890px){
+    .container {
+        display: flex;
+        margin: auto;
+        max-width: 860px!important;
+        justify-content: space-between;
+    }
+    .container .left-content {
+        max-width:30%;
+        margin: 0;
+    }
+    .container .right-content {
+        max-width:70%;
+        margin:0;
+    }
+    .container .right-content .slide .slide-content a {
+        left:34%;
+    }
+}
+@media screen and (min-width:1200px){
+    .container {
+        display: flex;
+        margin: auto;
+        max-width: 1140px!important;
+        justify-content: space-between;
+    }
+    .container .right-content {
+        max-width:75%;
+        margin:0;
+    }
+    .container .right-content .slide .slide-content a {
+        padding: 15px 26px;
+        display: inline-block;
+        position: absolute;
+        left: 26%;
+        bottom: 13%;
+        background-color: #000;
+        font-weight: 700;
+        font-family: Poppins,sans-serif;
+    }
+
+}

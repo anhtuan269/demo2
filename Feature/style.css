@@ -1,0 +1,180 @@
+@media screen and (min-width:320px){
+   .feature{
+       background-color:#f6f7f9;
+       height:auto;
+   }
+   .title{
+       max-width:94%;
+       margin:auto;
+       border-bottom:1px solid #DDD;
+       padding-top:30px;
+       padding-bottom:10px;
+
+   }
+   .title h2 {
+       color:#000;
+       font-family:Poppins, sans-serif;
+       font-weight:700;
+   }
+   .feature .feature-product .product {
+       padding: 0 10px;
+       position:relative;
+   }
+   
+
+   .feature .feature-product .product .info h5 {
+       display: flex;
+       justify-content: space-between;
+       font-size:0.7em;
+   }
+   .feature .feature-product .product .info h5 i {
+       font-size:1.4em;
+   }
+   .feature .feature-product .product .info p {
+       color:#333;
+       font-size:1.1em;
+   }
+   .feature .feature-product .product .info .vote i{
+       padding-right:2px;
+   }
+   .feature .feature-product .product .info h4 .new {
+       color:#333;
+       font-size:1.2em;
+       font-weight:400;
+       padding-left:5px;
+   }
+   .feature .feature-product .product .info h4 .price {
+       text-decoration: line-through;
+   }
+   .feature .feature-product .product .image {
+       position:relative;
+   }
+   .feature .feature-product .product .image h3 {
+       background-color:#62b959;
+       display: inline-block;
+       padding: 3px 15px;
+       font-size:0.7em;
+       position: absolute;
+       top:10px;
+       left:20px;
+       color:#FFF;
+       font-weight: 700;
+       font-family: Poppins, sans-serif;
+
+   }
+   .feature .feature-product .product .image h2 {
+       background-color:#e27c7c;
+       display: inline-block;
+       padding: 3px 10px;
+       position: absolute;
+       top:35px;
+       color:#FFF;
+       left:20px;
+       font-weight: 700;
+       font-family: Poppins, sans-serif;
+       font-size:0.8em;
+   }
+   .feature .feature-product .product .image .quick-view {
+       color:#FFF;
+       background-color:#08C;
+       display:block;
+       width:100%;
+       text-align: center;
+       bottom:0;
+       left: 0;
+       position:absolute;
+       opacity:0;
+       transition: all 0.25s ease-in;
+       padding-top: .5rem;
+       padding-bottom: .5rem;
+       cursor: pointer;
+   }
+   .feature .feature-product .product:hover a {
+       opacity:0.8;
+   }
+   .feature .feature-product .product:hover .image .quick-view {
+       opacity:1;
+   }
+   .feature .feature-product .product .image .bag {
+       position:absolute;
+       top:15px;
+       right:20px;
+       padding: 5px 5px;
+       border: 1px solid #DDD;
+       border-radius: 50%;
+       background-color:#FFF;
+       color:#000;
+       opacity: 0;
+       transition: all 0.25s ease-in;
+       cursor: pointer;
+   }
+   .feature .feature-product .product:hover .bag {
+        opacity: 1;
+    }
+   .feature .feature-product .product .image .bag:hover {
+    background-color:#000;
+    color:#FFF;
+   } 
+   .feature .feature-product .owl-dots{
+       position: absolute;
+       top: -60px; 
+       right:10px;
+   }
+   .feature .owl-theme .owl-dots .owl-dot span::before {
+        content: '';
+        display: block;
+        width: .7rem;
+        height: .7rem;
+        background-color: transparent;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin-top: -.35rem;
+        margin-left: -.35rem;
+        background-color: #08C;
+        opacity: 0;
+        visibility: hidden;
+        transform: scale(0);
+        transition: all .3s;
+        border-radius: 50%;
+   
+    }
+    .feature .owl-carousel .owl-dots .owl-dot span {
+            position: relative;
+            width: 15px;
+            height: 15px;
+            background: transparent;
+            display: block;
+            transition: all .3s ease;
+            border: 0.1rem solid rgba(0,0,0,0.4);
+    }
+    .feature .owl-carousel .owl-dots .owl-dot.active span{
+        border-color: #08C;
+        background: transparent;
+    }
+
+    .feature .owl-carousel .owl-dots .owl-dot span::before {
+        width: 7px;
+        height: 7px;
+        margin-top: -3.5px; 
+        margin-left: -3.5px;
+    }
+    .feature .feature-product .owl-dots .owl-dot.active span::before{
+            opacity: 1;
+            visibility: visible; 
+            transform: scale(1);
+    }
+
+}
+
+@media screen and (min-width:1200px){
+
+    .title {
+        max-width:1140px;
+    }
+    .feature-product {
+        max-width:1140px;
+        justify-content: center;
+        margin:auto;
+    }
+}

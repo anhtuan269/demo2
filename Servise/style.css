@@ -1,0 +1,60 @@
+@media screen and (min-width:320px){
+    .servise {
+        margin:auto;
+        width:95%;
+        border: 1px solid #999;
+
+    }
+    .servise .shipping {
+        padding: 15px;
+        border-bottom:1px solid #999;
+        display:flex;
+        color:#000;
+
+    }
+    .servise .shipping i {
+        position: relative;
+        top:5px;
+    }
+    .servise .shipping .shipping-content {
+        padding: 0 15px;
+        font-family:Poppins,sans-serif;
+    }
+
+    .servise .shipping .shipping-content h2 {
+        font-size:0.9em;
+        font-weight:700;
+
+    }
+    .servise .shipping .shipping-content p {
+        color:#999;
+    }
+    .servise .support {
+        border-bottom:none;
+        padding-bottom:10px;
+    }
+
+
+}
+@media screen and (min-width:890px){
+    .servise {
+        display:flex;
+        width:97%;
+
+    }
+    .servise .shipping {
+        border-bottom:none;
+        border-right:1px solid #eee;
+        padding: 0px 10px;
+
+    }
+}
+@media screen and (min-width:1200px){
+    .servise {
+        max-width:1140px;
+    }
+    .servise .shipping {
+        padding-left:27px;
+        padding-right:80px;
+    }
+}

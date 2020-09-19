@@ -1,0 +1,802 @@
+@media screen and (min-width:320px){
+    .container-banner {
+        position:relative;
+    }
+    .banner-container .banner figure img {
+        width:83%;
+        margin:auto;
+    }
+    .banner-container .banner {
+        position: relative;
+    }
+    .banner-container .banner1 .banner1-content {
+        position: absolute;
+        top:60px;
+        right:50px;
+    }
+    .banner-container .banner1 .banner1-content .percent {
+        border: 1px solid #000;
+        border-radius: 50%;
+        padding: 2px 5px;
+        background-color: #000;
+        color: #fff;
+    }
+    .banner-container .banner1 .banner1-content .percent h4 {
+        font-size: 2.5em;
+        font-weight: 700;
+        top: 10px;
+        position: relative;
+        font-family: Poppins;
+    }
+    .banner-container .banner1 .banner1-content .percent h4 span{
+        font-size: 0.6em;
+        position: relative;
+        top: -10px;
+    }
+    .banner-container .banner1 .banner1-content .percent h5 {
+        color: #999;
+        position: relative;
+        top: -13px;
+        left: 46px;
+        font-size: 0.7em;
+    }
+    .banner-container .banner1 .banner1-content .price p {
+        font-size: 2em;
+        color: #000;
+        font-weight: 700;
+        top: -25px;
+        position: relative;
+        left: 25px;
+    }
+    .banner-container .banner1 .banner1-content .price p span {
+        color: #000;
+        font-weight: 700;
+        text-decoration: line-through;
+        position: relative;
+        right: -20px;
+        top: 12px;
+        font-size: 0.5em;
+    }
+    .banner-container .banner1 .banner1-content .content h4 {
+        color: #000;
+        font-size: 0.9em;
+        position: relative;
+        left: 22px;
+        
+    }
+    .banner-container .banner1 .banner1-content .content h5 {
+        color: #000;
+        position: relative;
+        font-weight: 700;
+        top: 3px;
+    }
+    .banner-container .banner2 .banner2-content {
+        position:absolute;
+        top:20px;
+        right:60px;
+        color:#000;
+    }
+    .banner-container .banner2 .banner2-content h3 {
+        font-size: 1.6em;
+        font-weight: 700;
+        font-family: Poppins;
+    }
+    .banner-container .banner2 .banner2-content h4 {
+        font-size: 1.6em;
+        font-weight: 700;
+        font-family: Poppins;
+        position: relative;
+        top: -10px;
+    }
+    .banner-container .banner2 .banner2-content h5 {
+        font-size: 0.9em;
+        color: #ff7272;
+        position: relative;
+        left: 10px;
+    }
+    .banner-container .banner2 .banner2-content a {
+        background-color: #000;
+        color: #FFF;
+        font-weight: 700;
+        font-family: Poppins;
+        padding: 10px 20px;
+        font-size: 0.7em;
+        position: relative;
+        top: 15px;
+        left: 26px;
+    }
+    .banner-container .banner3 .banner3-content {
+        position: absolute;
+        top: 20px;
+        left: 81px;
+        color: #000;
+        font-family: Poppins;
+    }
+    .banner-container .banner3 .banner3-content  h2 {
+        font-size: 1.6em;
+        font-weight: 700;
+        letter-spacing: 2px;
+        font-family: Poppins;
+    }
+    .banner-container .banner3 .banner3-content h3 {
+        font-size: 1.3em;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    .banner-container .banner3 .banner3-content a {
+        position: absolute;
+        bottom: -120px;
+        left: 19%;
+        background-color: #ff7272;
+        color: #FFF;
+        padding: 5px 12px;
+        font-size: 0.7em;
+        font-weight: 700;
+    }
+    .banner-container .banner4 .banner4-content {
+        position: absolute;
+        top: 20px;
+        text-align: right;
+        left: 90px;
+        font-family: Poppins;
+    }
+    .banner-container .banner4 .banner4-content h2 {
+        color: #ff7272;
+        font-weight: 700;
+    }
+    
+    .banner-container .banner4 .banner4-content h3 {
+        font-weight: 500;
+    }
+    .banner-container .banner4 .banner4-content h4 {
+            font-weight: 700;
+            font-size: 1.1em;
+    }
+    .banner-container .banner4 .banner4-content sup {
+        top: -1px;
+        position: relative;
+        padding: 3px;
+    }
+    .banner-container .banner4 .banner4-content a {
+        color: #000;
+        background-color: #FFF;
+        padding: 5px 10px;
+        font-size: 0.7em;
+        font-weight: 700;
+    }
+    .banner-container .banner5 .banner5-content {
+        position: absolute;
+        top: 20px;
+        left: 23%;
+        text-align: center;
+        font-family: Poppins;
+    } 
+    .banner-container .banner5 .banner5-content h5{
+        font-size: 0.9em;
+        color: #000;
+        padding: 5px;
+        font-weight: 700;
+        border-bottom: 1px solid #DDD;
+    } 
+    .banner-container .banner5 .banner5-content h3 {
+        color: #000;
+        font-weight: 700;
+        font-size: 1.6em;
+        letter-spacing: 2px;
+    } 
+    .banner-container .banner5 .banner5-content p {
+        font-size: 0.7em;
+        letter-spacing: 2px;
+    } 
+    .banner-container .banner5 .banner5-content a {
+        background-color: #000;
+        color: #FFF;
+        font-size: 0.7em;
+        font-weight: 700;
+        position: absolute;
+        padding: 9px 8px;
+        bottom: -347px;
+        left: 33%;
+    } 
+    .banner-container .banner6 .banner6-content {
+        position: absolute;
+        top: 30%;
+        text-align: center;
+        left: 30%;
+        color: #000;
+        font-family: Poppins;
+    } 
+    .banner-container .banner6 .banner6-content h2 {
+        font-size: 1.4em;
+        font-weight: 600;
+    }
+    .banner-container .banner6 .banner6-content p {
+        color: #AAA;
+        font-weight: 500;
+    }
+    .banner-container .banner6 .banner6-content a {
+        background-color: #000;
+        color: #FFF;
+        font-size: 0.7em;
+        padding: 10px 15px;
+        font-weight: 700;
+        position: relative;
+        top: 15px;
+    }
+    .banner-container .banner7 .banner7-content {
+        position: absolute;
+        top: 20px;
+        left: 55%;
+        font-family: Poppins;
+        color: #FFF;
+    }
+    .banner-container .banner7 .banner7-content h2 {
+        text-align: right;
+        font-weight: 700;
+    }
+    .banner-container .banner7 .banner7-content h4 {
+        position: relative;
+        top: 5px;
+    }
+    .banner-container .banner7 .banner7-content h4 .rotate{
+        font-size: 0.6em;
+        transform: rotate(-90deg);
+        position: relative;
+        display: inline-block;
+        left: -10px;
+        top: 5px;
+    }
+    .banner-container .banner7 .banner7-content h4 .price{
+        background-color: #FFF;
+        color: #000;
+        font-size: 0.8em;
+        font-weight: 600;
+        padding: 2px 3px;
+        position: relative;
+        transform: rotate(4deg);
+        display: inline-block;
+        top: 5px;
+        left: -12px;
+    }
+    .banner-container .banner7 .banner7-content h4 .off{
+        font-size: 0.7em;
+        font-weight: 700;
+        position: relative;
+        top: 2px;
+        left: -10px;
+    }
+    .banner-container .banner7 .banner7-content h3 {
+        font-size: 0.7em;
+        background-color: #FFF;
+        color: #000;
+        font-weight: 500;
+        padding: 4px;
+        transform: rotate(3deg);
+
+    }
+    .banner-container .banner7 .banner7-content a {
+        font-size: 0.8em;
+        font-weight: 600;
+        background-color: #FFF;
+        color: #000;
+        position: relative;
+        padding: 3px 5px;
+        top: 21px;
+    }
+    .banner-container .banner8 .banner8-content {
+        position: absolute;
+        top: 20px;
+        font-family: Poppins;
+        left: 15%;
+        color: #000;
+    }
+    .banner-container .banner8 .banner8-content h3 {
+        font-size: 0.9em;
+        font-weight: 600;
+    }
+    .banner-container .banner8 .banner8-content h2 {
+        font-size: 1.4em;
+        font-weight: 700;
+    }
+    .banner-container .banner8 .banner8-content a{
+        font-size: 0.7em;
+        background-color: #000;
+        color: #fff;
+        font-weight: 700;
+        padding: 3px 5px;
+    }
+    .banner-container .banner9 .banner9-content {
+        position: absolute;
+        top: 20px;
+        font-family: Poppins;
+        left: 10%;
+        color: #000;
+    } 
+    .banner-container .banner9 .banner9-content p {
+        font-size: 0.6em;
+        color: #AAA;
+        letter-spacing: 1px;
+    } 
+    .banner-container .banner9 .banner9-content h3 {
+        font-weight: 700;
+        text-align: right;
+        font-size: 0.9em;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #e0e2e4;
+    } 
+    .banner-container .banner9 .banner9-content h4 {
+        padding-top: 10px;
+        text-align: center;
+    } 
+    .banner-container .banner9 .banner9-content h4 .rotate {
+        display: inline-block;
+        font-size: 0.6em;
+        color: #AAA;
+    } 
+    .banner-container .banner9 .banner9-content h4 .price {
+        background-color: #FFF;
+        font-size: 0.8em;
+        font-weight: 700;
+        padding: 3px 7px;
+        position: relative;
+        left: -5px;
+    }   
+    .banner-container .banner9 .banner9-content h4 .off {
+        font-size: 0.7em;
+        font-weight: 600;
+        position: relative;
+        left: -3px;
+    }  
+     .banner-container .banner9 .banner9-content a {
+        position: relative;
+        left: 115%;
+        top: -55px;
+        display: block;
+        background-color: #000;
+        color: #FFF;
+        font-size: 0.8em;
+        text-align: center;
+        font-weight: 700;
+        padding: 4px 5px;
+    } 
+
+
+}
+@media screen and (min-width:480px){
+    .banner-container{
+        position:relative;
+        height:1560px;
+    }
+    .banner-container .banner2 {
+        position:absolute;
+        left:50%;
+        top:2%;
+    }
+    .banner-container .banner1 {
+        position:absolute;
+        left:0%;
+
+    }
+    .banner-container .banner4 {
+        position:absolute;
+        top:36%;
+        left:50%
+    }
+    .banner-container .banner3 {
+        position:absolute;
+        top:21%;
+        left:50%;
+    }
+    .banner-container .banner5 {
+        position:absolute;
+        top:16%;
+        left:0%
+    }
+    .banner-container .banner6 {
+        position:absolute;
+        top:41.5%;
+        left:0%
+    }
+    .banner-container .banner7 {
+        position:absolute;
+        top:51%;
+    }
+    .banner-container .banner8 {
+        position:absolute;
+        top:69.5%;
+        left:0%
+    }
+    .banner-container .banner9 {
+        position:absolute;
+        bottom:1.5%;
+        left:0%
+    }
+    .banner-container .banner7 figure img {
+        width: 91%;
+   
+    }
+    .banner-container .banner8 figure img {
+        width: 91%;
+   
+    }
+    .banner-container .banner9 figure img {
+        width: 91%;
+   
+    }
+    .banner-container .banner1 .banner1-content .content {
+        position:relative;
+        top:-20px;
+    }
+    .banner-container .banner2 .banner2-content {
+        right:40px;
+    }
+    .banner-container .banner3 .banner3-content {
+        left:40px;
+    }
+    .banner-container .banner3 .banner3-content a {
+        bottom:-65px;
+    }
+    .banner-container .banner4 .banner4-content {
+        left:50px;
+    }
+    .banner-container .banner5 .banner5-content  a{
+        left:24%;
+        bottom:-270px;
+    }
+    .banner-container .banner6 .banner6-content {
+        left:25%;
+        top:25%;
+    }
+    .banner-container .banner7 .banner7-content {
+        left:55%;
+        top:40px;
+    }
+    .banner-container .banner7 .banner7-content h2 {
+        font-size: 1.5em;
+    }
+    .banner-container .banner7 .banner7-content h3 {
+        font-size:1.2em
+    }
+    .banner-container .banner7 .banner7-content h4 {
+        font-size:1.2em;
+    }
+    .banner-container .banner7 .banner7-content a {
+        font-size:1.3em;
+        top:35px;
+    }
+    .banner-container .banner8 .banner8-content {
+        left:10%;
+        top:40px;
+    }
+    .banner-container .banner8 .banner8-content h3 {
+        font-size:1.3em;
+    }
+    .banner-container .banner8 .banner8-content h2 {
+        font-size: 2em;
+    }
+    .banner-container .banner8 .banner8-content a {
+        font-size: 1.2em;
+    }
+    .banner-container .banner9 .banner9-content {
+        left:10%;
+        top:40px;
+    }
+    .banner-container .banner9 .banner9-content p{
+        font-size:0.7em;
+        letter-spacing: 2px;
+    }
+    .banner-container .banner9 .banner9-content h3{
+        font-size:1.4em;
+        padding-bottom:25px;
+        text-align:center;
+    }
+    .banner-container .banner9 .banner9-content h4{
+        font-size:1.5em
+    }
+    .banner-container .banner9 .banner9-content a{
+       font-size:1.1em;
+       top:-89px;
+       padding:10px 20px;
+    }
+
+}
+@media screen and (min-width:768px){
+    .banner-container  {
+        height:2450px;
+        max-width:730px;
+        margin:auto;
+    }
+    .banner-container .banner1 {
+        position:absolute;
+        left:0%;
+
+    }
+    .banner-container .banner1 figure img {
+        width:330px;
+    }
+    .banner-container .banner2 {
+        left:48%;
+        top:1%;
+
+    }
+    .banner-container .banner2 figure img {
+        width:380px;
+    }
+    .banner-container .banner3 {
+        position:absolute;
+        left:48%;
+
+    }
+    .banner-container .banner3 figure img {
+        width:380px;
+    }
+    .banner-container .banner4 {
+        position:absolute;
+        left:48%;
+
+    }
+    .banner-container .banner4 figure img {
+        width:380px;
+    }
+    .banner-container .banner5 figure img {
+        width:330px;
+    }
+    .banner-container .banner6 figure img {
+        width:330px;
+    }
+    .banner-container .banner7 figure img {
+        width:730px;
+        height:360px;
+    }
+    .banner-container .banner8 {
+        position:absolute;
+        top:66.5%;
+    }
+    .banner-container .banner8 figure img {
+        width:730px;
+        height:360px;
+    }
+    .banner-container .banner9 {
+        position:absolute;
+        bottom:2%;
+    }
+    .banner-container .banner9 figure img {
+        width:730px;
+        height:360px;
+    }
+    .banner-container .banner1 .banner1-content{
+        font-size:1.3em;
+    }
+    .banner-container .banner2 .banner2-content{
+        font-size:1.5em;
+    }
+    .banner-container .banner3 .banner3-content{
+        font-size:1.9em;
+    }
+    .banner-container .banner4 .banner4-content{
+        font-size:1.7em;
+    }
+    .banner-container .banner5 .banner5-content{
+        font-size:1.5em;
+        left:18%;
+    }
+    .banner-container .banner6 .banner6-content{
+        font-size:1.5em;
+    }
+    .banner-container .banner7 .banner7-content{
+        font-size:1.7em;
+    }
+    .banner-container .banner8 .banner8-content{
+        font-size:1.7em;
+        top:85px;
+    }
+    .banner-container .banner9 .banner9-content{
+        font-size:1.7em;
+    }
+
+}
+@media screen and (min-width:890px){
+    .banner-container {
+        max-width: 97%;
+        margin:auto;
+        height:700px;
+    }
+    .banner-container .banner1 {
+        top:0%;
+        left:0%;
+    }
+    .banner-container .banner1 figure img {
+        width:200px;
+    }
+    .banner-container .banner2 {
+        top:230px;
+        left:0%;
+    }
+    .banner-container .banner2 figure img {
+        width:200px;
+    }
+    .banner-container .banner3 {
+        top:490px;
+        left:0%;
+    }
+    .banner-container .banner3 figure img {
+        width:200px;
+    }
+    .banner-container .banner4 {
+        top:0%;
+        left:75%;
+    }
+    .banner-container .banner4 figure img {
+        width:100%;
+        height:130px
+    }
+    .banner-container .banner5 {
+        top:140px;
+        left:75%;
+    }
+    .banner-container .banner5 figure img {
+        width:100%;
+        height:375px;
+    }
+    .banner-container .banner6 {
+        top:525px;
+        left:75%;
+    }
+    .banner-container .banner6 figure img {
+        width:100%;
+    }
+    .banner-container .banner7 {
+        top:0%;
+        left:25%;
+    }
+    .banner-container .banner7 figure img {
+        width:420px;
+        height:250px
+    }
+    .banner-container .banner8 {
+        top:262px;
+        left:25%;
+    }
+    .banner-container .banner8 figure img {
+        width:420px;
+        height:170px
+    }
+    .banner-container .banner9 {
+        top:440px;
+        left:25%;
+    }
+    .banner-container .banner9 figure img {
+        width:420px;
+        height:230px
+    }
+    .banner-container .banner1 .banner1-content{
+        font-size:1em;
+        top:20px;
+        right:20px;
+    }
+    .banner-container .banner2 .banner2-content{
+        font-size:1em;
+    }
+    .banner-container .banner3 .banner3-content{
+        font-size:0.9em;
+        left:25px;
+    }
+    .banner-container .banner4 .banner4-content{
+        font-size:0.9em;
+        top:10px;
+    }
+    .banner-container .banner5 .banner5-content{
+        font-size:1em;
+    }
+    .banner-container .banner6 .banner6-content{
+        font-size:1em;
+    }
+    .banner-container .banner7 .banner7-content{
+        font-size:1em;
+    }
+    .banner-container .banner8 .banner8-content{
+        font-size:1.1em;
+        top: 35px;
+    }
+    .banner-container .banner9 .banner9-content{
+        font-size:1.1em;
+        left:17px;
+    }
+    .banner-container .banner9 .banner9-content a {
+        left:103%;
+        top: -100px;
+    }
+}
+@media screen and (min-width:1200px){
+    .banner-container {
+        max-width:1140px;
+        margin:auto;
+        height:850px;
+    }
+    .banner-container .banner1 figure img {
+        width:270px;
+        height:220px
+    }
+    .banner-container .banner2 figure img {
+        width:270px;
+    }
+    .banner-container .banner3 {
+        top:575px;
+    }
+    .banner-container .banner3 figure img {
+        width:270px;
+    }
+    .banner-container .banner4 figure img {
+        height:189px;
+        width:285px;
+    }
+    .banner-container .banner5 {
+        top:207px;
+    }
+    .banner-container .banner5 figure img {
+        width:285px;
+        height:428px;
+    }
+    .banner-container .banner6 {
+        top:650px;
+        left:75%;
+    }
+    .banner-container .banner6 figure img {
+        width:285%;
+    }
+    .banner-container .banner7 {
+        top:0%;
+        left:25%;
+    }
+    .banner-container .banner7 figure img {
+        width:555px;
+        height:280px
+    }
+    .banner-container .banner8 {
+        top:292px;
+        left:25%;
+    }
+    .banner-container .banner8 figure img {
+        width:555px;
+        height:255px
+    }
+    .banner-container .banner9 {
+        top:560px;
+        left:25%;
+    }
+    .banner-container .banner9 figure img {
+        width:555px;
+        height:261px;
+    }
+    .banner-container .banner2 .banner2-content{
+        font-size:1.2em;
+    }
+    .banner-container .banner3 .banner3-content{
+        font-size:1.4em;
+    }
+    .banner-container .banner4 .banner4-content{
+        font-size:1.3em;
+    }
+    .banner-container .banner5 .banner5-content{
+        font-size:1.3em;
+    }
+    .banner-container .banner6 .banner6-content{
+        font-size:1.2em;
+        left:55px;
+    }
+    .banner-container .banner7 .banner7-content{
+        font-size:1.4em;
+        top:20px;
+    }
+    .banner-container .banner8 .banner8-content{
+        font-size:1.7em;
+        left:5%;
+    }
+    .banner-container .banner9 .banner9-content{
+        font-size:1.3em;
+    }
+    .banner-container .banner9 .banner9-content a{
+        left:130%;
+    }
+
+}
